@@ -370,10 +370,21 @@
   .section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
   }
-  /* Section Latest news ============================= */
-   .section-latest-news .row {
+
+  /* Section Latest news 
+      ============================= */
+    
+  .section-latest-news .row {
     flex-direction: row-reverse;
   }
+
+  /* Section SERVICES 
+      ============================= */
+
+  .section-services .row {
+    flex-wrap: wrap;
+  }
+  
   /*** 4. CARD ***/
   
   /* Card (all styles)
@@ -501,4 +512,3 @@
     font-size: 10rem;
     z-index: -1;
   }
- 
