@@ -5,6 +5,6 @@ $hover_color: #00ff00;
 button {
   color: $red_color;
   &:hover {
-    color: #00ff00;
+    color: $hover_color;
   }
 }
