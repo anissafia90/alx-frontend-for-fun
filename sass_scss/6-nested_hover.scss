@@ -1,0 +1,10 @@
+/* variable */
+$red_color: #ff0000;
+$hover_color: #00ff00;
+/*nested hover*/
+button {
+  color: $red_color;
+  &:hover {
+    color: #00ff00;
+  }
+}
