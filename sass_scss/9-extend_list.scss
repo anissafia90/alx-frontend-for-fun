@@ -1,0 +1,23 @@
+/* variable */
+$red_color: #ff0000;
+$green_color: #00ff00;
+
+/*  Extended */
+
+@mixin info {
+  font-size: 12px;
+}
+
+.info {
+  @include info;
+}
+
+.success {
+  @extend .info;
+  color: $green_color;
+}
+
+.warning {
+  @extend .info;
+  color: $red_color;
+}
